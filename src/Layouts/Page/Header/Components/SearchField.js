@@ -9,24 +9,23 @@ const WrapperInput = styled.div`
 
 const Input = styled.input`
     outline: none;
-    border-radius: 0px;
-    border: solid #152842 1px;
-    background-color: #D9E2EF;
+    border-radius: 24px;
+    border: solid #E2E8F0 1px;
+    background-color: #F8FAFC;
     color: #152842;
     width: 100%;
     &:hover {
-        background: linear-gradient(180deg, #DFEAF1 0%, #CFDDE8 100%);
+        background: rgba(248,250,252,0.8);
     }
     &:focus {
-        background: white;
+        background: #F8FAFC;
     }
 `;
 
 const SearchIconWrapper = styled.div`
-    background-color: #4B759E;
     position: absolute;
     box-sizing:border-box;
-    right: 0px;  /* Здесь можно добавить отступ от правого края, чтобы сдвинуть иконку левее */
+    right: 16px;  /* Здесь можно добавить отступ от правого края, чтобы сдвинуть иконку левее */
     top:50%;
     transform: translateY(-50%);
 `;
