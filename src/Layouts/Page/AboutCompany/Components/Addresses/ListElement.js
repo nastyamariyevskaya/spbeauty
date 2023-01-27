@@ -3,6 +3,7 @@ import SecondaryButton from '../../../../../Components/SecondaryButton';
 import EditIcon from '../../../../../Icons/EditIcon';
 import RemoveIcon from '../../../../../Icons/RemoveIcon';
 import IconOnlyButton from '../../../../../Components/IconOnlyButton.js';
+import PrimaryButton from '../../../../../Components/PrimaryButton';
 
 const Option = styled.div`
     outline: none;
